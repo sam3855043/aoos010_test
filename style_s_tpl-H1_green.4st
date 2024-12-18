@@ -9,6 +9,7 @@
      <StyleAttribute name="ringMenuPosition" value="none" />
      <StyleAttribute name="statusBarType" value="panels5" />
      <StyleAttribute name="ignoreMinimizeSetting" value="yes" />
+     <StyleAttribute name="fontSize" value="10pt" />  <!-- #191204-00026#1 by 08146 -->
   </Style>
   <Style name="Window.fullScreen">
      <StyleAttribute name="windowState" value="maximized" />
@@ -17,7 +18,7 @@
      <StyleAttribute name="windowType" value="modal" />
      <StyleAttribute name="position" value="field" />
      <StyleAttribute name="border" value="tool" />
-     <StyleAttribute name="toolBarPosition" value="bottom" />
+     <!-- StyleAttribute name="toolBarPosition" value="bottom" /181225 -->
      <StyleAttribute name="actionPanelPosition" value="none" />
      <StyleAttribute name="ringMenuPosition" value="none" />
      <StyleAttribute name="statusBarType" value="none" />
@@ -29,6 +30,7 @@
      <StyleAttribute name="actionPanelPosition" value="none" />
      <StyleAttribute name="ringMenuPosition" value="none" />
      <StyleAttribute name="statusBarType" value="none" />
+     <StyleAttribute name="sizable" value="no" />
   </Style>
   <Style name="Window.functionwin">
      <StyleAttribute name="windowType" value="modal" />
@@ -48,7 +50,8 @@
      <StyleAttribute name="scaleIcon" value="30px" />
   </Style>
   <Style name=".toolBar_openwin">
-     <StyleAttribute name="scaleIcon" value="16px" />
+     <StyleAttribute name="scaleIcon" value="24px" />
+     <!-- StyleAttribute name="scaleIcon" value="16px" /181225 -->
   </Style>
   <Style name="Table">
      <StyleAttribute name="tableType" value="frozenTable" />
@@ -57,6 +60,7 @@
      <StyleAttribute name="highlightColor" value="#D0ECE9" />
      <StyleAttribute name="highlightTextColor" value="#000000" /> 
      <StyleAttribute name="summaryLineAlwaysAtBottom" value="yes" />
+     <StyleAttribute name="showGrid" value="yes" />
   </Style>
   <Style name="Table:summaryLine">
      <StyleAttribute name="backgroundColor" value="#4E8EA3" />
@@ -175,7 +179,8 @@
   </Style>
   <Style name=".title_letter">
      <StyleAttribute name="border" value="none" />
-     <StyleAttribute name="textColor" value="#FFFFFF" />
+     <!--StyleAttribute name="textColor" value="#FFFFFF" / #191204-00026#1 by 08146 -->
+     <StyleAttribute name="textColor" value="#E57E14" />  <!-- #191204-00026#1 by 08146 -->
      <StyleAttribute name="fontSize" value="13pt" />
      <StyleAttribute name="fontWeight" value="bold" />
   </Style>
